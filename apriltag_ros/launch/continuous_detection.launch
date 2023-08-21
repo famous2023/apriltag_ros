@@ -3,8 +3,10 @@
   <arg name="launch_prefix" default="" />
 
   <!-- configure camera input -->
-  <arg name="camera_name" default="/camera_rect" />
-  <arg name="image_topic" default="image_rect" />
+  <arg name="camera_name" default="/iris_feima_0/usb_cam/" />
+  <arg name="image_topic" default="image_raw" />
+  <!-- <arg name="camera_name" default="/camera_rect" />
+  <arg name="image_topic" default="image_rect" /> -->
   <arg name="queue_size" default="1" />
 
   <!-- apriltag_ros continuous detection node -->

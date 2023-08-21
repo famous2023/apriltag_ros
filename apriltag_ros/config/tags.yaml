@@ -21,6 +21,8 @@
 #   ]
 standalone_tags:
   [
+    {id: 0, size: 0.42, name: 'land_target'},
+    {id: 1, size: 0.01, name: 'land_target1'}
   ]
 # ## Tag bundle definitions
 # ### Remarks
